@@ -1,12 +1,27 @@
-[
-    {
-        "id": "Flux RPC",
-        "endpoint": "https://eu.rpc.fluxbeam.xyz?key=<api-key>",
-        "rateLimit": 15
-    },
-    {
-        "id": "Helius",
-        "endpoint": "https://mainnet.helius-rpc.com/?api-key=<api-key>",
-        "rateLimit": 10
-    }
-]
+{
+    "rpcs": [
+        {
+            "id": "Flux RPC",
+            "endpoint": "https://eu.rpc.fluxbeam.xyz?key=<api-key>",
+            "rateLimit": 15,
+            "sampleSize": 1
+        },
+        {
+            "id": "Helius",
+            "endpoint": "https://mainnet.helius-rpc.com/?api-key=<api-key>",
+            "rateLimit": 5,
+            "sampleSize": 1
+        },
+        {
+            "id": "Syndica",
+            "endpoint": "https://solana-mainnet.api.syndica.io/api-key/<api-key>",
+            "rateLimit": 100,
+            "sampleSize": 1
+        }
+    ],
+    "accounts": [
+        "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE",
+        "3ucNos4NbumPLZNWztqGHNFFgkHeRMBQAVemeeomsUxv",
+        "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6"
+    ]
+}
