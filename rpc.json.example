@@ -1,0 +1,12 @@
+[
+    {
+        "id": "Flux RPC",
+        "endpoint": "https://eu.rpc.fluxbeam.xyz?key=<api-key>",
+        "rateLimit": 15
+    },
+    {
+        "id": "Helius",
+        "endpoint": "https://mainnet.helius-rpc.com/?api-key=<api-key>",
+        "rateLimit": 10
+    }
+]
