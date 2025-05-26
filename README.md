@@ -1,7 +1,6 @@
 # Overview
 
-This repo contains a simple CLI that performs getAccountInfo and getMultipleAccounts requests to Solana RPC providers, in order to gather statistics about them. The CLI will perform for each of these two methods `sampleSize` concurrent calls
-to each of the RPC specified. More about `sampleSize` values in configuration file section.
+This repo contains a simple CLI that performs getAccountInfo and getMultipleAccounts requests to Solana RPC providers, in order to gather statistics about them. The CLI will perform concurrent calls for each of these two methods, the amount of concurrent calls for each RPC can be declared in field `sampleSize` on the configuration file. More about `sampleSize` values in configuration file section.
 
 ## Environment variables
 
