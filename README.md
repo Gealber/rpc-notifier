@@ -17,7 +17,7 @@ TGBOT_API_KEY="<TG_BOT_API_KEY>"
 # In case of channels should be specified with '@' before the channel id, for example @fluxnotify
 # The channel must add the bot into its subscribers otherwise doesn't work
 # In case of users is a number
-NOTIFIER_SUBS="@username"
+NOTIFIER_SUBS="@channelusername"
 ```
 
 ## Available parameters
